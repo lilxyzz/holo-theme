@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+p, input, textarea {
+  font-family: "Noto Serif", sans-serif;
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
+
+
+ h1,h2,h3,h4,h5,h6,span {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem !important;
+}
+
+@layer base {
+  a {
+    color: white;
+  }
+  body {
+    background-color: hsla(243, 60%, 95%, 1);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+
+/* ~~~~ Custom CSS - I know it's bad T_T ~~~~ */
+
+/* Stop page  side scrolling on mobile */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Mobile Nav */
+.pb-3 {padding-bottom: 0.75rem; display: flex; flex-direction: column; align-items: center;}
+
+/* Footer background colour */
+.footer.max-w-7xl.mx-auto.p-20.mt-10.rounded-xl {background: linear-gradient(90deg, #796a99, #554970);}
+
+/* mobile dropdown background */
+.md\:hidden {background-color: hsla(243, 60%, 95%, 1); border-radius: 0px 0px 10px 10px;}
+
+/* blog read more arrows */
+.w-3\.5 {padding-left: 5px;}
+
+/* 404 page */ 
+.\34 04-p {display: flex; flex-direction: column; align-items: center; padding: 40px 0px;}

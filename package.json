@@ -1,0 +1,68 @@
+{
+  "name": "Holo-Gatsby-Theme",
+  "private": true,
+  "description": "Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS.",
+  "version": "1.0.0",
+  "author": "Travis Lord <hi@travislord.xyz>",
+  "dependencies": {
+    "@fontsource/montserrat": "^5.0.17",
+    "@fontsource/noto-serif": "^5.0.19",
+    "axios": "^1.6.0",
+    "decap-cms-app": "^3.0.12",
+    "gatsby": "^5.12.11",
+    "gatsby-plugin-decap-cms": "^4.0.3",
+    "gatsby-plugin-gatsby-cloud": "^5.12.2",
+    "gatsby-plugin-image": "^3.12.3",
+    "gatsby-plugin-manifest": "^5.12.3",
+    "gatsby-plugin-netlify": "^5.1.1",
+    "gatsby-plugin-netlify-cms": "^7.12.1",
+    "gatsby-plugin-offline": "^6.12.3",
+    "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-plugin-sitemap": "^6.13.0",
+    "gatsby-remark-copy-linked-files": "^6.13.0",
+    "gatsby-remark-images": "^7.13.0",
+    "gatsby-remark-prismjs": "^7.13.0",
+    "gatsby-remark-relative-images": "^2.0.5",
+    "gatsby-remark-responsive-iframe": "^6.13.0",
+    "gatsby-remark-smartypants": "^6.13.0",
+    "gatsby-source-filesystem": "^5.12.1",
+    "gatsby-transformer-remark": "^6.13.0",
+    "gatsby-transformer-sharp": "^5.12.3",
+    "i": "^0.3.7",
+    "npm": "^10.2.5",
+    "prop-types": "^15.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-reveal": "^1.2.2",
+    "remark-mdx": "^3.0.0",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "gatsby-plugin-postcss": "^6.12.0",
+    "postcss": "^8.4.31",
+    "prettier": "3.1.0",
+    "tailwindcss": "^3.3.6"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT License",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
