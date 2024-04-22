@@ -16,7 +16,7 @@
     "gatsby-plugin-manifest": "^5.12.3",
     "gatsby-plugin-netlify": "^5.1.1",
     "gatsby-plugin-netlify-cms": "^7.12.1",
-    "gatsby-plugin-offline": "^6.12.3",
+    "gatsby-plugin-offline": "^6.13.2",
     "gatsby-plugin-sharp": "^5.12.3",
     "gatsby-plugin-sitemap": "^6.13.0",
     "gatsby-remark-copy-linked-files": "^6.13.0",
