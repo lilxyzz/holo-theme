@@ -6,7 +6,7 @@
   "author": "Travis Lord <hi@travislord.xyz>",
   "dependencies": {
     "@fontsource/montserrat": "^5.0.18",
-    "@fontsource/noto-serif": "^5.0.19",
+    "@fontsource/noto-serif": "^5.0.20",
     "axios": "^1.7.0",
     "decap-cms-app": "^3.1.10",
     "gatsby": "^5.12.11",
