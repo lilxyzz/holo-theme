@@ -9,7 +9,7 @@
     "@fontsource/noto-serif": "^5.0.20",
     "axios": "^1.7.0",
     "decap-cms-app": "^3.1.10",
-    "gatsby": "^5.12.11",
+    "gatsby": "^5.13.6",
     "gatsby-plugin-decap-cms": "^4.0.3",
     "gatsby-plugin-gatsby-cloud": "^5.12.2",
     "gatsby-plugin-image": "^3.12.3",
