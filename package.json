@@ -7,7 +7,7 @@
   "dependencies": {
     "@fontsource/montserrat": "^5.0.18",
     "@fontsource/noto-serif": "^5.0.20",
-    "axios": "^1.7.2",
+    "axios": "^1.7.4",
     "decap-cms-app": "^3.1.11",
     "gatsby": "^5.13.7",
     "gatsby-plugin-decap-cms": "^4.0.3",
