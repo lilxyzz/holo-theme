@@ -14389,10 +14389,10 @@ style-to-object@^0.4.1:
   dependencies:
     inline-style-parser "0.1.1"
 
-styled-components@^6.1.11:
-  version "6.1.11"
-  resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-6.1.11.tgz#01948e5195bf1d39e57e0a85b41958c80e40cfb8"
-  integrity sha512-Ui0jXPzbp1phYij90h12ksljKGqF8ncGx+pjrNPsSPhbUUjWT2tD1FwGo2LF6USCnbrsIhNngDfodhxbegfEOA==
+styled-components@^6.1.13:
+  version "6.1.13"
+  resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-6.1.13.tgz#2d777750b773b31469bd79df754a32479e9f475e"
+  integrity sha512-M0+N2xSnAtwcVAQeFEsGWFFxXDftHUD7XrKla06QbpUMmbmtFBMMTcKWvFXtWxuD5qQkB8iU5gk6QASlx2ZRMw==
   dependencies:
     "@emotion/is-prop-valid" "1.2.2"
     "@emotion/unitless" "0.8.1"
