@@ -1,0 +1,22 @@
+Package                          Current   Wanted   Latest  Location                                      Depended by
+@fontsource/montserrat             5.1.0    5.2.6    5.2.6  node_modules/@fontsource/montserrat           app
+@fontsource/noto-serif             5.1.0    5.2.7    5.2.7  node_modules/@fontsource/noto-serif           app
+autoprefixer                     10.4.20  10.4.21  10.4.21  node_modules/autoprefixer                     app
+gatsby                             3.3.1   3.15.0   5.14.4  node_modules/gatsby                           app
+gatsby-plugin-gatsby-cloud        5.13.1   5.14.0   5.14.0  node_modules/gatsby-plugin-gatsby-cloud       app
+gatsby-plugin-image               3.13.1   3.14.0   3.14.0  node_modules/gatsby-plugin-image              app
+gatsby-plugin-offline             1.0.18   1.0.18   6.14.0  node_modules/gatsby-plugin-offline            app
+gatsby-remark-copy-linked-files   6.13.2   6.14.0   6.14.0  node_modules/gatsby-remark-copy-linked-files  app
+gatsby-remark-images              7.13.2   7.14.0   7.14.0  node_modules/gatsby-remark-images             app
+gatsby-remark-responsive-iframe   6.13.2   6.14.0   6.14.0  node_modules/gatsby-remark-responsive-iframe  app
+gatsby-remark-smartypants         6.13.1   6.14.0   6.14.0  node_modules/gatsby-remark-smartypants        app
+gatsby-source-filesystem          5.13.1   5.14.0   5.14.0  node_modules/gatsby-source-filesystem         app
+gatsby-transformer-remark         6.13.1   6.14.0   6.14.0  node_modules/gatsby-transformer-remark        app
+netlify-cms-app                  2.14.14  2.15.72  2.15.72  node_modules/netlify-cms-app                  app
+npm                               10.9.0   10.9.2   11.4.2  node_modules/npm                              app
+postcss                           8.4.47    8.5.5    8.5.5  node_modules/postcss                          app
+prettier                           3.3.3    3.3.3    3.5.3  node_modules/prettier                         app
+react                             18.3.1   18.3.1   19.1.0  node_modules/react                            app
+react-dom                         18.3.1   18.3.1   19.1.0  node_modules/react-dom                        app
+styled-components                 6.1.13   6.1.19   6.1.19  node_modules/styled-components                app
+tailwindcss                       3.4.14   3.4.17   4.1.10  node_modules/tailwindcss                      app

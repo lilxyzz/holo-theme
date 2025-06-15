@@ -1,0 +1,171 @@
+# npm audit report
+
+brace-expansion  2.0.0 - 2.0.1
+brace-expansion Regular Expression Denial of Service vulnerability - https://github.com/advisories/GHSA-v6h2-p8h4-qcjw
+fix available via `npm audit fix`
+node_modules/npm/node_modules/brace-expansion
+
+cookie  <0.7.0
+cookie accepts cookie name, path, and domain with out of bounds characters - https://github.com/advisories/GHSA-pxg6-pf52-xh8x
+fix available via `npm audit fix --force`
+Will install gatsby@3.3.1, which is a breaking change
+node_modules/cookie
+node_modules/engine.io/node_modules/cookie
+  engine.io  1.8.0 - 6.6.1
+  Depends on vulnerable versions of cookie
+  node_modules/engine.io
+    socket.io  1.6.0 - 4.7.5
+    Depends on vulnerable versions of engine.io
+    node_modules/socket.io
+      gatsby  >=1.2.0
+      Depends on vulnerable versions of babel-plugin-remove-graphql-queries
+      Depends on vulnerable versions of cookie
+      Depends on vulnerable versions of gatsby-plugin-page-creator
+      Depends on vulnerable versions of gatsby-plugin-typescript
+      Depends on vulnerable versions of gatsby-plugin-utils
+      Depends on vulnerable versions of path-to-regexp
+      Depends on vulnerable versions of socket.io
+      node_modules/gatsby
+        babel-plugin-remove-graphql-queries  3.14.0-alpha-qe-sm.33 - 3.14.0-next.4 || >=4.0.0-alpha-9689ff.4
+        Depends on vulnerable versions of gatsby
+        node_modules/babel-plugin-remove-graphql-queries
+        gatsby-plugin-gatsby-cloud  3.2.0-alpha-qe-sm.2 - 3.2.0-next.4 || >=4.0.0-alpha-9689ff.5
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-plugin-gatsby-cloud
+        gatsby-plugin-image  1.14.0-alpha-qe-sm.33 - 1.14.0-next.4 || >=2.0.0-alpha-9689ff.4
+        Depends on vulnerable versions of babel-plugin-remove-graphql-queries
+        Depends on vulnerable versions of gatsby
+        Depends on vulnerable versions of gatsby-plugin-sharp
+        Depends on vulnerable versions of gatsby-plugin-utils
+        Depends on vulnerable versions of gatsby-source-filesystem
+        node_modules/gatsby-plugin-image
+        gatsby-plugin-manifest  3.14.0-alpha-qe-sm.46 - 3.14.0-next.2 || >=4.0.0-alpha-9689ff.5
+        Depends on vulnerable versions of gatsby
+        Depends on vulnerable versions of gatsby-plugin-utils
+        node_modules/gatsby-plugin-manifest
+        gatsby-plugin-netlify  >=4.0.0-alpha-9689ff.5
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-plugin-netlify
+        gatsby-plugin-netlify-cms  5.14.0-alpha-qe-sm.46 - 5.14.0-next.2 || >=6.0.0-alpha-9689ff.5
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-plugin-netlify-cms
+        gatsby-plugin-offline  >=1.1.0-alpha.1460dad9
+        Depends on vulnerable versions of gatsby
+        Depends on vulnerable versions of workbox-build
+        node_modules/gatsby-plugin-offline
+        gatsby-plugin-page-creator  3.14.0-alpha-qe-sm.9 - 3.14.0-next.3 || >=4.0.0-alpha-9689ff.5
+        Depends on vulnerable versions of gatsby
+        Depends on vulnerable versions of gatsby-plugin-utils
+        node_modules/gatsby-plugin-page-creator
+        gatsby-plugin-postcss  4.14.0-alpha-qe-sm.46 - 4.14.0-next.2 || >=5.0.0-alpha-9689ff.5
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-plugin-postcss
+        gatsby-plugin-sharp  3.14.0-alpha-qe-sm.33 - 3.14.0-next.4 || >=4.0.0-alpha-9689ff.4
+        Depends on vulnerable versions of gatsby
+        Depends on vulnerable versions of gatsby-plugin-utils
+        node_modules/gatsby-plugin-sharp
+          gatsby-remark-images  1.6.0-alpha.03b9df85 - 2.0.0-alpha.23 || 2.1.0-alpha.80a21f04 - 2.1.0-alpha.e328d33f || 5.11.0-alpha-qe-sm.46 - 5.11.0-next.2 || >=6.0.0-alpha-9689ff.5
+          Depends on vulnerable versions of gatsby
+          Depends on vulnerable versions of gatsby-plugin-sharp
+          node_modules/gatsby-remark-images
+        gatsby-plugin-sitemap  4.10.0-alpha-qe-sm.46 - 4.10.0-next.2 || >=5.0.0-alpha-9689ff.5
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-plugin-sitemap
+        gatsby-plugin-typescript  3.14.0-alpha-qe-sm.33 - 3.14.0-next.4 || >=4.0.0-alpha-9689ff.4
+        Depends on vulnerable versions of babel-plugin-remove-graphql-queries
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-plugin-typescript
+        gatsby-plugin-utils  1.14.0-alpha-qe-sm.46 - 1.14.0-next.2 || >=2.0.0-alpha-9689ff.5
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-plugin-utils
+          gatsby-transformer-sharp  3.14.0-alpha-qe-sm.46 - 3.14.0-next.2 || >=4.0.0-alpha-9689ff.5
+          Depends on vulnerable versions of gatsby
+          Depends on vulnerable versions of gatsby-plugin-sharp
+          Depends on vulnerable versions of gatsby-plugin-utils
+          node_modules/gatsby-transformer-sharp
+        gatsby-remark-copy-linked-files  4.11.0-alpha-qe-sm.46 - 4.11.0-next.2 || >=5.0.0-alpha-9689ff.5
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-remark-copy-linked-files
+        gatsby-remark-prismjs  5.11.0-alpha-qe-sm.46 - 5.11.0-next.2 || >=6.0.0-alpha-9689ff.5
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-remark-prismjs
+        gatsby-remark-responsive-iframe  4.11.0-alpha-qe-sm.46 - 4.11.0-next.2 || >=5.0.0-alpha-9689ff.5
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-remark-responsive-iframe
+        gatsby-remark-smartypants  4.11.0-alpha-qe-sm.46 - 4.11.0-next.2 || >=5.0.0-alpha-9689ff.5
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-remark-smartypants
+        gatsby-source-filesystem  3.14.0-alpha-qe-sm.46 - 3.14.0-next.2 || >=4.0.0-alpha-9689ff.5
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-source-filesystem
+        gatsby-transformer-remark  4.11.0-alpha-qe-sm.33 - 4.11.0-next.4 || >=5.0.0-alpha-9689ff.4
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-transformer-remark
+
+cross-spawn  7.0.0 - 7.0.4
+Severity: high
+Regular Expression Denial of Service (ReDoS) in cross-spawn - https://github.com/advisories/GHSA-3xgq-45jj-v275
+fix available via `npm audit fix`
+node_modules/npm/node_modules/cross-spawn
+
+dompurify  <3.2.4
+Severity: moderate
+DOMPurify allows Cross-site Scripting (XSS) - https://github.com/advisories/GHSA-vhxf-7vqr-mrjg
+No fix available
+node_modules/dompurify
+  decap-cms-widget-markdown  *
+  Depends on vulnerable versions of dompurify
+  Depends on vulnerable versions of remark-parse
+  Depends on vulnerable versions of remark-rehype
+  node_modules/decap-cms-widget-markdown
+    decap-cms-app  *
+    Depends on vulnerable versions of decap-cms-widget-markdown
+    node_modules/decap-cms-app
+  netlify-cms-widget-markdown  *
+  Depends on vulnerable versions of dompurify
+  Depends on vulnerable versions of remark-parse
+  Depends on vulnerable versions of remark-rehype
+  node_modules/netlify-cms-widget-markdown
+
+lodash.template  *
+Severity: high
+Command Injection in lodash - https://github.com/advisories/GHSA-35jh-r3h4-6jhm
+fix available via `npm audit fix --force`
+Will install gatsby-plugin-offline@4.15.0, which is a breaking change
+node_modules/lodash.template
+  workbox-build  <=5.1.4
+  Depends on vulnerable versions of lodash.template
+  node_modules/workbox-build
+
+path-to-regexp  <0.1.12
+Severity: high
+path-to-regexp contains a ReDoS - https://github.com/advisories/GHSA-rhx6-c78j-4q9w
+fix available via `npm audit fix --force`
+Will install gatsby@3.3.1, which is a breaking change
+node_modules/path-to-regexp
+
+trim  <0.0.3
+Severity: high
+Regular Expression Denial of Service in trim - https://github.com/advisories/GHSA-w5p7-h5w8-2hfq
+fix available via `npm audit fix`
+node_modules/trim
+  mdast-util-to-hast  <=6.0.2
+  Depends on vulnerable versions of trim
+  node_modules/remark-rehype/node_modules/mdast-util-to-hast
+    remark-rehype  <=5.0.0
+    Depends on vulnerable versions of mdast-util-to-hast
+    node_modules/remark-rehype
+  remark-parse  <=8.0.3
+  Depends on vulnerable versions of trim
+  node_modules/remark-parse
+
+38 vulnerabilities (24 low, 2 moderate, 12 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.

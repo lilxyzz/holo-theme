@@ -1,0 +1,649 @@
+# npm audit report
+
+ansi-html  <0.0.8
+Severity: high
+Uncontrolled Resource Consumption in ansi-html - https://github.com/advisories/GHSA-whgm-jr23-g3j9
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/ansi-html
+  @pmmmwh/react-refresh-webpack-plugin  <=0.5.11
+  Depends on vulnerable versions of ansi-html
+  Depends on vulnerable versions of webpack-dev-server
+  node_modules/@pmmmwh/react-refresh-webpack-plugin
+    gatsby  <=5.14.0-next.4
+    Depends on vulnerable versions of @pmmmwh/react-refresh-webpack-plugin
+    Depends on vulnerable versions of ansi-html
+    Depends on vulnerable versions of axios
+    Depends on vulnerable versions of babel-plugin-remove-graphql-queries
+    Depends on vulnerable versions of babel-preset-gatsby
+    Depends on vulnerable versions of css-minimizer-webpack-plugin
+    Depends on vulnerable versions of eslint-plugin-graphql
+    Depends on vulnerable versions of gatsby-cli
+    Depends on vulnerable versions of gatsby-legacy-polyfills
+    Depends on vulnerable versions of gatsby-plugin-page-creator
+    Depends on vulnerable versions of gatsby-plugin-typescript
+    Depends on vulnerable versions of gatsby-plugin-utils
+    Depends on vulnerable versions of gatsby-telemetry
+    Depends on vulnerable versions of got
+    Depends on vulnerable versions of graphql-compose
+    Depends on vulnerable versions of latest-version
+    Depends on vulnerable versions of postcss
+    Depends on vulnerable versions of react-dev-utils
+    Depends on vulnerable versions of socket.io
+    Depends on vulnerable versions of socket.io-client
+    Depends on vulnerable versions of webpack-dev-middleware
+    Depends on vulnerable versions of webpack-dev-server
+    node_modules/gatsby
+      babel-plugin-remove-graphql-queries  2.6.1 - 3.15.0
+      Depends on vulnerable versions of gatsby
+      node_modules/gatsby-plugin-typescript/node_modules/babel-plugin-remove-graphql-queries
+      node_modules/gatsby/node_modules/babel-plugin-remove-graphql-queries
+        gatsby-plugin-typescript  1.4.13 - 2.0.0-alpha.5 || 2.0.6 - 3.15.0
+        Depends on vulnerable versions of babel-plugin-remove-graphql-queries
+        Depends on vulnerable versions of gatsby
+        node_modules/gatsby-plugin-typescript
+      gatsby-plugin-offline  <=2.0.0-rc.9 || 2.0.22 - 4.15.0
+      Depends on vulnerable versions of gatsby
+      Depends on vulnerable versions of sw-precache
+      node_modules/gatsby-plugin-offline
+      gatsby-plugin-page-creator  2.0.6 - 4.0.0-zz-next.3 || 4.5.0-alpha-trailing-slash.45 - 4.5.0-next.3 || 4.6.0-alpha-ts-jit.26 - 4.6.0-next.3 || 4.7.0-alpha-image-service.13 - 4.7.0-next.3 || 4.8.0-alpha-image-service.24 - 4.8.0-next.2 || 4.9.0-alpha-image-cdn.32 - 4.9.0-next.1 || 4.11.0-alpha-luda.30 - 4.11.0-next.3 || 4.13.0-alpha-image-cdn-telemetry.29 - 4.13.0-next.0 || 4.15.0-alpha-wp-image-cdn-auth.42 - 4.15.0-next.2 || 4.16.0-alpha-image-cdn-caching.9 - 4.16.0-next.1 || 4.17.0-alpha-drupal-image-404.12 - 4.17.0-next.1 || 4.18.0-alpha-drupal-self-reference.18 - 4.18.0-next.1 || 4.20.0-mdxv4-rc.60 - 4.20.0-next.2 || 4.23.0-alpha-9689ff.25 - 4.23.0-next.0 || 4.24.0-alpha-heritage.25 - 4.24.0-next.2
+      Depends on vulnerable versions of gatsby
+      Depends on vulnerable versions of gatsby-plugin-utils
+      Depends on vulnerable versions of gatsby-telemetry
+      node_modules/gatsby-plugin-page-creator
+      gatsby-plugin-utils  0.2.27-qod.19 - 0.2.27-qod.21 || 0.2.31-query-modules-debug-missing-sq.23 || 0.2.35 - 1.15.0
+      Depends on vulnerable versions of gatsby
+      node_modules/gatsby-plugin-page-creator/node_modules/gatsby-plugin-utils
+      node_modules/gatsby/node_modules/gatsby-plugin-utils
+
+axios  <=0.29.0
+Severity: high
+Axios Cross-Site Request Forgery Vulnerability - https://github.com/advisories/GHSA-wf5p-g6vw-rhxx
+axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL - https://github.com/advisories/GHSA-jr5f-v2jv-69x6
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/contentful-management/node_modules/axios
+node_modules/gatsby/node_modules/axios
+  contentful-management  0.8.0 - 0.8.6 || 2.1.0 - 4.1.0 || 5.8.0 - 10.39.2
+  Depends on vulnerable versions of axios
+  node_modules/contentful-management
+    gatsby-recipes  >=0.0.5-recipes.14780
+    Depends on vulnerable versions of contentful-management
+    Depends on vulnerable versions of gatsby-telemetry
+    Depends on vulnerable versions of graphql-compose
+    Depends on vulnerable versions of remark-parse
+    node_modules/gatsby-recipes
+      gatsby-cli  1.1.27 - 4.25.0
+      Depends on vulnerable versions of gatsby-recipes
+      Depends on vulnerable versions of gatsby-telemetry
+      Depends on vulnerable versions of update-notifier
+      node_modules/gatsby-cli
+
+brace-expansion  2.0.0 - 2.0.1
+brace-expansion Regular Expression Denial of Service vulnerability - https://github.com/advisories/GHSA-v6h2-p8h4-qcjw
+fix available via `npm audit fix`
+node_modules/npm/node_modules/brace-expansion
+
+braces  <3.0.3
+Severity: high
+Uncontrolled resource consumption in braces - https://github.com/advisories/GHSA-grv7-fg5c-xmjg
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/fork-ts-checker-webpack-plugin/node_modules/braces
+node_modules/http-proxy-middleware/node_modules/braces
+node_modules/webpack-dev-server/node_modules/braces
+  chokidar  1.3.0 - 2.1.8
+  Depends on vulnerable versions of anymatch
+  Depends on vulnerable versions of braces
+  Depends on vulnerable versions of readdirp
+  node_modules/webpack-dev-server/node_modules/chokidar
+    webpack-dev-server  <=5.2.0
+    Depends on vulnerable versions of bonjour
+    Depends on vulnerable versions of chokidar
+    Depends on vulnerable versions of http-proxy-middleware
+    Depends on vulnerable versions of ip
+    Depends on vulnerable versions of selfsigned
+    Depends on vulnerable versions of webpack-dev-middleware
+    node_modules/webpack-dev-server
+  micromatch  <=4.0.7
+  Depends on vulnerable versions of braces
+  node_modules/fork-ts-checker-webpack-plugin/node_modules/micromatch
+  node_modules/http-proxy-middleware/node_modules/micromatch
+  node_modules/webpack-dev-server/node_modules/micromatch
+    anymatch  1.2.0 - 2.0.0
+    Depends on vulnerable versions of micromatch
+    node_modules/webpack-dev-server/node_modules/anymatch
+    fork-ts-checker-webpack-plugin  0.4.14 - 4.1.6
+    Depends on vulnerable versions of micromatch
+    node_modules/fork-ts-checker-webpack-plugin
+      react-dev-utils  0.5.2 - 12.0.0-next.60
+      Depends on vulnerable versions of browserslist
+      Depends on vulnerable versions of cross-spawn
+      Depends on vulnerable versions of fork-ts-checker-webpack-plugin
+      Depends on vulnerable versions of immer
+      Depends on vulnerable versions of loader-utils
+      Depends on vulnerable versions of recursive-readdir
+      Depends on vulnerable versions of shell-quote
+      node_modules/react-dev-utils
+    http-proxy-middleware  <=2.0.7-beta.1
+    Depends on vulnerable versions of micromatch
+    node_modules/http-proxy-middleware
+    readdirp  2.2.0 - 2.2.1
+    Depends on vulnerable versions of micromatch
+    node_modules/webpack-dev-server/node_modules/readdirp
+
+browserslist  4.0.0 - 4.16.4
+Severity: moderate
+Regular Expression Denial of Service in browserslist - https://github.com/advisories/GHSA-w8qv-6jwh-64r5
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/react-dev-utils/node_modules/browserslist
+
+cookie  <0.7.0
+cookie accepts cookie name, path, and domain with out of bounds characters - https://github.com/advisories/GHSA-pxg6-pf52-xh8x
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/engine.io/node_modules/cookie
+  engine.io  0.7.8 - 0.7.9 || 1.8.0 - 6.6.1
+  Depends on vulnerable versions of cookie
+  Depends on vulnerable versions of ws
+  node_modules/engine.io
+    socket.io  3.0.0-rc1 - 4.6.1
+    Depends on vulnerable versions of engine.io
+    node_modules/socket.io
+
+cross-fetch  <=2.2.3 || 2.2.5 || 3.0.0 - 3.1.4 || 3.2.0-alpha.0 - 3.2.0-alpha.2
+Severity: high
+Incorrect Authorization in cross-fetch - https://github.com/advisories/GHSA-7gc6-qh9x-w6h8
+Depends on vulnerable versions of node-fetch
+fix available via `npm audit fix`
+node_modules/cross-fetch
+  @graphql-tools/url-loader  <=7.4.3-alpha-9f8b9c45.0
+  Depends on vulnerable versions of cross-fetch
+  Depends on vulnerable versions of ws
+  node_modules/@graphql-tools/url-loader
+
+cross-spawn  <6.0.6 || >=7.0.0 <7.0.5
+Severity: high
+Regular Expression Denial of Service (ReDoS) in cross-spawn - https://github.com/advisories/GHSA-3xgq-45jj-v275
+Regular Expression Denial of Service (ReDoS) in cross-spawn - https://github.com/advisories/GHSA-3xgq-45jj-v275
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/npm/node_modules/cross-spawn
+node_modules/react-dev-utils/node_modules/cross-spawn
+node_modules/sw-precache/node_modules/cross-spawn
+  execa  0.5.0 - 0.9.0
+  Depends on vulnerable versions of cross-spawn
+  node_modules/sw-precache/node_modules/execa
+    term-size  1.0.0 - 1.2.0
+    Depends on vulnerable versions of execa
+    node_modules/sw-precache/node_modules/term-size
+      boxen  1.2.0 - 3.2.0
+      Depends on vulnerable versions of term-size
+      node_modules/sw-precache/node_modules/boxen
+        update-notifier  0.2.0 - 5.1.0
+        Depends on vulnerable versions of boxen
+        Depends on vulnerable versions of latest-version
+        node_modules/sw-precache/node_modules/update-notifier
+        node_modules/update-notifier
+          sw-precache  >=1.2.2
+          Depends on vulnerable versions of lodash.template
+          Depends on vulnerable versions of meow
+          Depends on vulnerable versions of update-notifier
+          node_modules/sw-precache
+
+dompurify  <3.2.4
+Severity: moderate
+DOMPurify allows Cross-site Scripting (XSS) - https://github.com/advisories/GHSA-vhxf-7vqr-mrjg
+No fix available
+node_modules/dompurify
+  decap-cms-widget-markdown  *
+  Depends on vulnerable versions of dompurify
+  Depends on vulnerable versions of remark-parse
+  Depends on vulnerable versions of remark-rehype
+  node_modules/decap-cms-widget-markdown
+    decap-cms-app  *
+    Depends on vulnerable versions of decap-cms-widget-markdown
+    node_modules/decap-cms-app
+  netlify-cms-widget-markdown  *
+  Depends on vulnerable versions of dompurify
+  Depends on vulnerable versions of remark-parse
+  Depends on vulnerable versions of remark-rehype
+  node_modules/netlify-cms-widget-markdown
+
+
+
+got  <=11.8.3
+Severity: high
+Got allows a redirect to a UNIX socket - https://github.com/advisories/GHSA-pfrx-2q88-qq97
+Depends on vulnerable versions of cacheable-request
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/gatsby/node_modules/got
+node_modules/package-json/node_modules/got
+node_modules/sw-precache/node_modules/got
+  package-json  <=6.5.0
+  Depends on vulnerable versions of got
+  node_modules/package-json
+  node_modules/sw-precache/node_modules/package-json
+    latest-version  0.2.0 - 5.1.0
+    Depends on vulnerable versions of package-json
+    node_modules/latest-version
+    node_modules/sw-precache/node_modules/latest-version
+
+http-cache-semantics  <4.1.1
+Severity: high
+http-cache-semantics vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-rc47-6667-2j5j
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/gatsby/node_modules/http-cache-semantics
+  cacheable-request  0.1.0 - 2.1.4
+  Depends on vulnerable versions of http-cache-semantics
+  node_modules/gatsby/node_modules/got/node_modules/cacheable-request
+
+
+immer  7.0.0 - 9.0.5
+Severity: critical
+Prototype Pollution in immer - https://github.com/advisories/GHSA-c36v-fmgq-m8hx
+Prototype Pollution in immer - https://github.com/advisories/GHSA-33f9-j839-rf8h
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/react-dev-utils/node_modules/immer
+
+ip  *
+Severity: high
+ip SSRF improper categorization in isPublic - https://github.com/advisories/GHSA-2p57-rm9w-gvfp
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/ip
+  dns-packet  <=5.2.4
+  Depends on vulnerable versions of ip
+  node_modules/dns-packet
+    multicast-dns  6.0.0 - 7.2.2
+    Depends on vulnerable versions of dns-packet
+    node_modules/multicast-dns
+      bonjour  >=3.3.1
+      Depends on vulnerable versions of multicast-dns
+      node_modules/bonjour
+
+loader-utils  2.0.0 - 2.0.3
+Severity: critical
+Prototype pollution in webpack loader-utils - https://github.com/advisories/GHSA-76p3-8jx3-jpfq
+loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable - https://github.com/advisories/GHSA-3rfm-jhwj-7488
+loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) - https://github.com/advisories/GHSA-hhq3-ff78-jv3g
+fix available via `npm audit fix`
+node_modules/react-dev-utils/node_modules/loader-utils
+
+lodash.template  *
+Severity: high
+Command Injection in lodash - https://github.com/advisories/GHSA-35jh-r3h4-6jhm
+fix available via `npm audit fix --force`
+Will install gatsby-plugin-offline@6.14.0, which is a breaking change
+node_modules/lodash.template
+
+
+minimatch  <3.0.5
+Severity: high
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/graphql-config/node_modules/minimatch
+node_modules/recursive-readdir/node_modules/minimatch
+  graphql-config  <=0.0.0-experimental-feb71d0.7ba || 3.0.0-alpha.0 - 4.1.0
+  Depends on vulnerable versions of minimatch
+  node_modules/graphql-config
+    eslint-plugin-graphql  >=4.0.0
+    Depends on vulnerable versions of graphql-config
+    node_modules/eslint-plugin-graphql
+  recursive-readdir  1.2.0 - 2.2.2
+  Depends on vulnerable versions of minimatch
+  node_modules/recursive-readdir
+
+node-fetch  <2.6.7
+Severity: high
+node-fetch forwards secure headers to untrusted sites - https://github.com/advisories/GHSA-r683-j2x4-v87g
+fix available via `npm audit fix`
+node_modules/cross-fetch/node_modules/node-fetch
+
+node-forge  <=1.2.1
+Severity: high
+Prototype Pollution in node-forge debug API. - https://github.com/advisories/GHSA-5rrq-pxf6-6jx5
+URL parsing in node-forge could lead to undesired behavior. - https://github.com/advisories/GHSA-gf8q-jrpm-jvxq
+Improper Verification of Cryptographic Signature in `node-forge` - https://github.com/advisories/GHSA-2r2c-g63r-vccr
+Open Redirect in node-forge - https://github.com/advisories/GHSA-8fr3-hfg3-gpgp
+Improper Verification of Cryptographic Signature in node-forge - https://github.com/advisories/GHSA-x4jg-mjrx-434g
+Improper Verification of Cryptographic Signature in node-forge - https://github.com/advisories/GHSA-cfm4-qjh2-4765
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/node-forge
+  selfsigned  1.1.1 - 1.10.14
+  Depends on vulnerable versions of node-forge
+  node_modules/selfsigned
+
+nth-check  <2.0.1
+Severity: high
+Inefficient Regular Expression Complexity in nth-check - https://github.com/advisories/GHSA-rp65-9cf3-cjxr
+fix available via `npm audit fix`
+node_modules/svgo/node_modules/nth-check
+  css-select  <=3.1.0
+  Depends on vulnerable versions of nth-check
+  node_modules/svgo/node_modules/css-select
+    svgo  1.0.0 - 1.3.2
+    Depends on vulnerable versions of css-select
+    node_modules/svgo
+      postcss-svgo  <=5.0.0-rc.2
+      Depends on vulnerable versions of postcss
+      Depends on vulnerable versions of svgo
+      node_modules/postcss-svgo
+
+object-path  <=0.11.7
+Severity: high
+Prototype Pollution in object-path - https://github.com/advisories/GHSA-v39p-96qg-c8rf
+Prototype Pollution in object-path - https://github.com/advisories/GHSA-8v63-cqqc-6r2c
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/object-path
+  graphql-compose  0.1.0 - 1.5.1 || 7.24.1 - 9.0.2
+  Depends on vulnerable versions of object-path
+  node_modules/gatsby-recipes/node_modules/graphql-compose
+  node_modules/gatsby/node_modules/graphql-compose
+
+parse-path  <5.0.0
+Severity: high
+Authorization Bypass in parse-path - https://github.com/advisories/GHSA-3j8f-xvm3-ffx4
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/gatsby-cli/node_modules/parse-path
+node_modules/gatsby-plugin-page-creator/node_modules/parse-path
+node_modules/gatsby-recipes/node_modules/parse-path
+node_modules/gatsby/node_modules/parse-path
+  parse-url  <=8.0.0
+  Depends on vulnerable versions of parse-path
+  node_modules/gatsby-cli/node_modules/parse-url
+  node_modules/gatsby-plugin-page-creator/node_modules/parse-url
+  node_modules/gatsby-recipes/node_modules/parse-url
+  node_modules/gatsby/node_modules/parse-url
+    git-up  <=6.0.0
+    Depends on vulnerable versions of parse-url
+    node_modules/gatsby-cli/node_modules/git-up
+    node_modules/gatsby-plugin-page-creator/node_modules/git-up
+    node_modules/gatsby-recipes/node_modules/git-up
+    node_modules/gatsby/node_modules/git-up
+      gatsby-telemetry  0.0.1-1595235897 || 1.1.3 - 3.24.0-next.1
+      Depends on vulnerable versions of git-up
+      node_modules/gatsby-cli/node_modules/gatsby-telemetry
+      node_modules/gatsby-plugin-page-creator/node_modules/gatsby-telemetry
+      node_modules/gatsby-recipes/node_modules/gatsby-telemetry
+      node_modules/gatsby/node_modules/gatsby-telemetry
+
+
+parseuri  <2.0.0
+Severity: moderate
+parse-uri Regular expression Denial of Service (ReDoS) - https://github.com/advisories/GHSA-6fx8-h7jm-663j
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/parseuri
+  engine.io-client  0.7.0 || 0.7.8 - 0.7.9 || 1.0.2 - 6.1.1
+  Depends on vulnerable versions of parseuri
+  Depends on vulnerable versions of ws
+  node_modules/engine.io-client
+    socket.io-client  1.0.0-pre - 4.4.1
+    Depends on vulnerable versions of engine.io-client
+    Depends on vulnerable versions of parseuri
+    Depends on vulnerable versions of socket.io-parser
+    node_modules/socket.io-client
+
+postcss  <=8.4.30
+Severity: moderate
+Regular Expression Denial of Service in postcss - https://github.com/advisories/GHSA-hwj9-h5mp-3pm3
+Regular Expression Denial of Service in postcss - https://github.com/advisories/GHSA-566m-qj78-rww5
+PostCSS line return parsing error - https://github.com/advisories/GHSA-7fh5-64p2-3v2j
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/css-declaration-sorter/node_modules/postcss
+node_modules/cssnano-preset-default/node_modules/postcss
+node_modules/cssnano-util-raw-cache/node_modules/postcss
+node_modules/cssnano/node_modules/postcss
+node_modules/gatsby/node_modules/postcss
+node_modules/postcss-calc/node_modules/postcss
+node_modules/postcss-colormin/node_modules/postcss
+node_modules/postcss-convert-values/node_modules/postcss
+node_modules/postcss-discard-comments/node_modules/postcss
+node_modules/postcss-discard-duplicates/node_modules/postcss
+node_modules/postcss-discard-empty/node_modules/postcss
+node_modules/postcss-discard-overridden/node_modules/postcss
+node_modules/postcss-merge-longhand/node_modules/postcss
+node_modules/postcss-merge-rules/node_modules/postcss
+node_modules/postcss-minify-font-values/node_modules/postcss
+node_modules/postcss-minify-gradients/node_modules/postcss
+node_modules/postcss-minify-params/node_modules/postcss
+node_modules/postcss-minify-selectors/node_modules/postcss
+node_modules/postcss-normalize-charset/node_modules/postcss
+node_modules/postcss-normalize-display-values/node_modules/postcss
+node_modules/postcss-normalize-positions/node_modules/postcss
+node_modules/postcss-normalize-repeat-style/node_modules/postcss
+node_modules/postcss-normalize-string/node_modules/postcss
+node_modules/postcss-normalize-timing-functions/node_modules/postcss
+node_modules/postcss-normalize-unicode/node_modules/postcss
+node_modules/postcss-normalize-url/node_modules/postcss
+node_modules/postcss-normalize-whitespace/node_modules/postcss
+node_modules/postcss-ordered-values/node_modules/postcss
+node_modules/postcss-reduce-initial/node_modules/postcss
+node_modules/postcss-reduce-transforms/node_modules/postcss
+node_modules/postcss-svgo/node_modules/postcss
+node_modules/postcss-unique-selectors/node_modules/postcss
+node_modules/stylehacks/node_modules/postcss
+  css-declaration-sorter  <=5.1.2
+  Depends on vulnerable versions of postcss
+  node_modules/css-declaration-sorter
+  cssnano  <=4.1.11
+  Depends on vulnerable versions of cssnano-preset-default
+  Depends on vulnerable versions of postcss
+  node_modules/cssnano
+    css-minimizer-webpack-plugin  <=1.3.0
+    Depends on vulnerable versions of cssnano
+    node_modules/css-minimizer-webpack-plugin
+  cssnano-preset-default  <=4.0.8
+  Depends on vulnerable versions of css-declaration-sorter
+  Depends on vulnerable versions of cssnano-util-raw-cache
+  Depends on vulnerable versions of postcss
+  Depends on vulnerable versions of postcss-calc
+  Depends on vulnerable versions of postcss-colormin
+  Depends on vulnerable versions of postcss-convert-values
+  Depends on vulnerable versions of postcss-discard-comments
+  Depends on vulnerable versions of postcss-discard-duplicates
+  Depends on vulnerable versions of postcss-discard-empty
+  Depends on vulnerable versions of postcss-discard-overridden
+  Depends on vulnerable versions of postcss-merge-longhand
+  Depends on vulnerable versions of postcss-merge-rules
+  Depends on vulnerable versions of postcss-minify-font-values
+  Depends on vulnerable versions of postcss-minify-gradients
+  Depends on vulnerable versions of postcss-minify-params
+  Depends on vulnerable versions of postcss-minify-selectors
+  Depends on vulnerable versions of postcss-normalize-charset
+  Depends on vulnerable versions of postcss-normalize-display-values
+  Depends on vulnerable versions of postcss-normalize-positions
+  Depends on vulnerable versions of postcss-normalize-repeat-style
+  Depends on vulnerable versions of postcss-normalize-string
+  Depends on vulnerable versions of postcss-normalize-timing-functions
+  Depends on vulnerable versions of postcss-normalize-unicode
+  Depends on vulnerable versions of postcss-normalize-url
+  Depends on vulnerable versions of postcss-normalize-whitespace
+  Depends on vulnerable versions of postcss-ordered-values
+  Depends on vulnerable versions of postcss-reduce-initial
+  Depends on vulnerable versions of postcss-reduce-transforms
+  Depends on vulnerable versions of postcss-svgo
+  Depends on vulnerable versions of postcss-unique-selectors
+  node_modules/cssnano-preset-default
+  cssnano-util-raw-cache  *
+  Depends on vulnerable versions of postcss
+  node_modules/cssnano-util-raw-cache
+  postcss-calc  4.1.0 - 7.0.5
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-calc
+  postcss-colormin  <=4.0.3
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-colormin
+  postcss-convert-values  <=4.0.1
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-convert-values
+  postcss-discard-comments  <=4.0.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-discard-comments
+  postcss-discard-duplicates  1.1.0 - 4.0.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-discard-duplicates
+  postcss-discard-empty  1.1.0 - 4.0.1
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-discard-empty
+  postcss-discard-overridden  <=4.0.1
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-discard-overridden
+  postcss-merge-longhand  <=4.0.11
+  Depends on vulnerable versions of postcss
+  Depends on vulnerable versions of stylehacks
+  node_modules/postcss-merge-longhand
+  postcss-merge-rules  <=4.0.3
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-merge-rules
+  postcss-minify-font-values  <=4.0.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-minify-font-values
+  postcss-minify-gradients  <=4.0.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-minify-gradients
+  postcss-minify-params  <=4.0.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-minify-params
+  postcss-minify-selectors  <=4.0.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-minify-selectors
+  postcss-normalize-charset  <=4.0.1
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-normalize-charset
+  postcss-normalize-display-values  <=4.0.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-normalize-display-values
+  postcss-normalize-positions  <=4.0.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-normalize-positions
+  postcss-normalize-repeat-style  <=4.0.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-normalize-repeat-style
+  postcss-normalize-string  <=4.0.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-normalize-string
+  postcss-normalize-timing-functions  <=4.0.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-normalize-timing-functions
+  postcss-normalize-unicode  <=4.0.1
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-normalize-unicode
+  postcss-normalize-url  1.1.0 - 4.0.1
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-normalize-url
+  postcss-normalize-whitespace  <=4.0.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-normalize-whitespace
+  postcss-ordered-values  <=4.1.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-ordered-values
+  postcss-reduce-initial  <=4.0.3
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-reduce-initial
+  postcss-reduce-transforms  <=4.0.2
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-reduce-transforms
+  postcss-unique-selectors  <=4.0.1
+  Depends on vulnerable versions of postcss
+  node_modules/postcss-unique-selectors
+  stylehacks  <=4.0.3
+  Depends on vulnerable versions of postcss
+  node_modules/stylehacks
+
+semver  7.0.0 - 7.5.1
+Severity: high
+semver vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/gatsby-legacy-polyfills/node_modules/semver
+  core-js-compat  3.6.0 - 3.25.0
+  Depends on vulnerable versions of semver
+  node_modules/gatsby-legacy-polyfills/node_modules/core-js-compat
+    gatsby-legacy-polyfills  1.1.0-next.0 - 3.10.0-next.1
+    Depends on vulnerable versions of core-js-compat
+    node_modules/gatsby-legacy-polyfills
+      babel-preset-gatsby  1.1.0-next.0 - 3.0.0-next.3
+      Depends on vulnerable versions of gatsby-legacy-polyfills
+      node_modules/babel-preset-gatsby
+
+shell-quote  <=1.7.2
+Severity: critical
+Improper Neutralization of Special Elements used in a Command in Shell-quote - https://github.com/advisories/GHSA-g4rg-993r-mgx7
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/shell-quote
+
+
+socket.io-parser  4.0.4 - 4.2.2
+Severity: moderate
+Insufficient validation when decoding a Socket.IO packet - https://github.com/advisories/GHSA-cqmj-92xf-r6r9
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/socket.io-parser
+
+trim  <0.0.3
+Severity: high
+Regular Expression Denial of Service in trim - https://github.com/advisories/GHSA-w5p7-h5w8-2hfq
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/trim
+  mdast-util-to-hast  <=6.0.2
+  Depends on vulnerable versions of trim
+  node_modules/remark-rehype/node_modules/mdast-util-to-hast
+    remark-rehype  <=5.0.0
+    Depends on vulnerable versions of mdast-util-to-hast
+    node_modules/remark-rehype
+  remark-parse  <=8.0.3
+  Depends on vulnerable versions of trim
+  node_modules/remark-parse
+
+trim-newlines  <3.0.1
+Severity: high
+Uncontrolled Resource Consumption in trim-newlines - https://github.com/advisories/GHSA-7p7h-4mm5-852v
+fix available via `npm audit fix --force`
+Will install gatsby-plugin-offline@6.14.0, which is a breaking change
+node_modules/trim-newlines
+  meow  3.4.0 - 5.0.0
+  Depends on vulnerable versions of trim-newlines
+  node_modules/meow
+
+webpack-dev-middleware  <=5.3.3
+Severity: high
+Path traversal in webpack-dev-middleware - https://github.com/advisories/GHSA-wr3j-pwj9-hqq6
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/webpack-dev-middleware
+node_modules/webpack-dev-server/node_modules/webpack-dev-middleware
+
+
+ws  7.0.0 - 7.5.9
+Severity: high
+ReDoS in Sec-Websocket-Protocol header - https://github.com/advisories/GHSA-6fc8-4gx4-v693
+ws affected by a DoS when handling a request with many HTTP headers - https://github.com/advisories/GHSA-3h5v-q93c-6h6q
+fix available via `npm audit fix --force`
+Will install gatsby@5.14.4, which is a breaking change
+node_modules/@graphql-tools/url-loader/node_modules/ws
+node_modules/engine.io-client/node_modules/ws
+node_modules/engine.io/node_modules/ws
+
+117 vulnerabilities (2 low, 48 moderate, 56 high, 11 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
