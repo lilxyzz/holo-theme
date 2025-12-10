@@ -88,12 +88,7 @@ module.exports = {
         icon: `src/images/3D-liquid-abstract-5.webp`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: "gatsby-plugin-netlify-cms",
-      options: {
-        enableIdentityWidget: false,
-      },
-    },
+
     {
       resolve: "gatsby-plugin-decap-cms",
       options: {

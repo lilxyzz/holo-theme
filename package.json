@@ -15,7 +15,6 @@
     "gatsby-plugin-image": "^3.12.3",
     "gatsby-plugin-manifest": "^5.14.0",
     "gatsby-plugin-netlify": "^5.1.1",
-    "gatsby-plugin-netlify-cms": "^7.12.1",
     "gatsby-plugin-offline": "^6.13.3",
     "gatsby-plugin-sharp": "^5.14.0",
     "gatsby-plugin-sitemap": "^6.14.0",
@@ -28,8 +27,6 @@
     "gatsby-source-filesystem": "^5.12.1",
     "gatsby-transformer-remark": "^6.13.0",
     "gatsby-transformer-sharp": "^5.14.0",
-    "i": "^0.3.7",
-    "netlify-cms-app": "^2.15.72",
     "npm": "^10.9.0",
     "prop-types": "^15.7.2",
     "react": "^18.3.1",
@@ -65,5 +62,12 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "resolutions": {
+    "undici": "5.29.0",
+    "cookie": "^0.7.0",
+    "lodash.template": "^4.5.0",
+    "tmp": "^0.2.3",
+    "trim": "0.0.3"
   }
 }
