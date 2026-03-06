@@ -40,7 +40,7 @@
     "autoprefixer": "^10.4.24",
     "gatsby-plugin-postcss": "^6.14.0",
     "postcss": "^8.4.47",
-    "prettier": "3.6.2",
+    "prettier": "3.8.1",
     "tailwindcss": "^3.4.14"
   },
   "keywords": [
